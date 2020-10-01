@@ -76,6 +76,7 @@ nav span {
   margin: auto;
   background-color: black;
   width: 100%;
+  min-width: 1200px;
 }
 
 /* Store Section */
@@ -134,8 +135,8 @@ nav span {
 
 .location {
   opacity: 1.0;
-  padding: 10px;
-  margin: 5px 20px;
+  padding: 15px 20px;
+  margin: 10px 20px;
   background-color: black;
   flex-basis: 280px;
   display: flex;
