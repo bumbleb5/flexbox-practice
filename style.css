@@ -30,6 +30,7 @@ h4 {
 
 header {
   width: 100%;
+  min-width: 543px;
   position: fixed;
   z-index: 1;
   height: 69px;
@@ -96,12 +97,13 @@ nav span {
   justify-content: space-evenly;
   flex-grow: 1;
   flex-shrink: 1;
+  text-align: center;
 }
 
 .item img {
   height: 200px;
   margin: 10px;
-  display: block;
+  display: inline-block;
 }
 
 .item span {
@@ -119,7 +121,8 @@ nav span {
 
 #locations {
   background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
-  height: 500px;
+  min-height: 500px;
+  height: auto;
   padding-top: 70px;
 }
 
